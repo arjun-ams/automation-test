@@ -1,0 +1,22 @@
+{
+  "github": {
+    "tokenEnvVar": "GITHUB_TOKEN"
+  },
+  "repos": [
+    {
+      "owner": "arjun-ams",
+      "repo": "workflow",
+      "branch": "main",
+      "workflow": "sample workflow",
+      "technology": "Java",
+      "triggerCount": 1
+    }
+  ],
+  "triggerCount": 1,
+  "runsPerWorkflow": 25,
+  "rowsPerCsv": 100,
+  "defaultUploadFilesPath": "pom.xml",
+  "trausDestination": "Jira",
+  "trausProperties": "no",
+  "jiraTestCaseIds": []
+}
